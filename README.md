@@ -1,5 +1,5 @@
 # hybrid-rolling-shutter-correction
-Physics-guided rolling-shutter correction using image geometry, capture time, camera motion, and neural residual learning.
+"Image geometry, row-dependent capture time, and camera motion jointly define a physically constrained model of rolling-shutter image displacement. The resulting physics-derived distortion flow provides a structured prior to a residual-learning network, which estimates the discrepancy between the physical model and the observed distortion."
 
 rolling-shutter-correction/
 │
